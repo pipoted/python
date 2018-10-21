@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fe1b4bc-628e-429f-ac81-690af267945c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$abc_test.coverage" NAME="abc_test Coverage Results" MODIFIED="1539918123467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$all_is_object.coverage" NAME="all_is_object Coverage Results" MODIFIED="1539907297912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第一章 一切皆对象/sample/chapter01" />
+    <SUITE FILE_PATH="coverage/python$contextlib_with.coverage" NAME="contextlib_with Coverage Results" MODIFIED="1539938666843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$attr_desc.coverage" NAME="attr_desc Coverage Results" MODIFIED="1540102006492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第八章 元类编程" />
+    <SUITE FILE_PATH="coverage/python$dict_method.coverage" NAME="dict_method Coverage Results" MODIFIED="1540085223299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第六章 set和dict" />
+    <SUITE FILE_PATH="coverage/python$dict_subclass.coverage" NAME="dict_subclass Coverage Results" MODIFIED="1540085884333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第六章 set和dict" />
+    <SUITE FILE_PATH="coverage/python$set_test.coverage" NAME="set_test Coverage Results" MODIFIED="1540090931223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第六章 set和dict" />
+    <SUITE FILE_PATH="coverage/python$list_gen.coverage" NAME="list_gen Coverage Results" MODIFIED="1540012143911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章 自定义序列类" />
+    <SUITE FILE_PATH="coverage/python$class_var.coverage" NAME="class_var Coverage Results" MODIFIED="1539920042307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$self_ex.coverage" NAME="self_ex Coverage Results" MODIFIED="1539935968820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$array_test.coverage" NAME="array_test Coverage Results" MODIFIED="1540003763084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章 自定义序列类" />
+    <SUITE FILE_PATH="coverage/python$super_test.coverage" NAME="super_test Coverage Results" MODIFIED="1539935972042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$python.coverage" NAME="python Coverage Results" MODIFIED="1539914597853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python$private_method.coverage" NAME="private_method Coverage Results" MODIFIED="1539935016582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$class_method.coverage" NAME="class_method Coverage Results" MODIFIED="1539922581997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$instance_type.coverage" NAME="instance_type Coverage Results" MODIFIED="1539919618231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$slice_object.coverage" NAME="slice_object Coverage Results" MODIFIED="1540001865130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章 自定义序列类" />
+    <SUITE FILE_PATH="coverage/python$sequence_test.coverage" NAME="sequence_test Coverage Results" MODIFIED="1539939856376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章 自定义序列类" />
+    <SUITE FILE_PATH="coverage/python$duck_type.coverage" NAME="duck_type Coverage Results" MODIFIED="1539915983571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$with_test.coverage" NAME="with_test Coverage Results" MODIFIED="1540001480573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$property_test.coverage" NAME="property_test Coverage Results" MODIFIED="1540097580998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第八章 元类编程" />
+    <SUITE FILE_PATH="coverage/python$bisect_test.coverage" NAME="bisect_test Coverage Results" MODIFIED="1540002637474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第四章 自定义序列类" />
+    <SUITE FILE_PATH="coverage/python$attr_mro.coverage" NAME="attr_mro Coverage Results" MODIFIED="1539921525046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章 深入类和对象" />
+    <SUITE FILE_PATH="coverage/python$company.coverage" NAME="company Coverage Results" MODIFIED="1539912125107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章 魔法函数" />
+    <SUITE FILE_PATH="coverage/python$dict_abc.coverage" NAME="dict_abc Coverage Results" MODIFIED="1540026075009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第六章 set和dict" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1831323339">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ipynb" value="1" />
+          <entry key="py" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="1" />
+          <entry key="Python" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="py" value="9851" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="9851" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第八章 元类编程/attr_desc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="e#16#51#0" expanded="true" />
+                <marker date="1540102006484" expanded="true" signature="132:265" ph="..." />
+                <marker date="1540102006484" expanded="true" signature="300:332" ph="..." />
+                <marker date="1540102006484" expanded="true" signature="390:546" ph="..." />
+                <marker date="1540102006484" expanded="true" signature="451:520" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/第一章 一切皆对象/sample/chapter01/all_is_object.py" />
+        <option value="$PROJECT_DIR$/第一章 一切皆对象/sample/chapter01/type_object_class.py" />
+        <option value="$PROJECT_DIR$/第二章 魔法函数/company.py" />
+        <option value="$PROJECT_DIR$/第二章 魔法函数/test.ipynb" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/duck_type.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/abc_test.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/instance_type.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/class_var.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/attr_mro.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/class_method.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/private_method.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/self_ex.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/super_test.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/with_test.py" />
+        <option value="$PROJECT_DIR$/第三章 深入类和对象/contextlib_with.py" />
+        <option value="$PROJECT_DIR$/第四章 自定义序列类/sequence_test.py" />
+        <option value="$PROJECT_DIR$/第四章 自定义序列类/slice_object.py" />
+        <option value="$PROJECT_DIR$/第四章 自定义序列类/bisect_test.py" />
+        <option value="$PROJECT_DIR$/第四章 自定义序列类/array_test.py" />
+        <option value="$PROJECT_DIR$/第四章 自定义序列类/list_gen.py" />
+        <option value="$PROJECT_DIR$/第六章 set和dict/dict_abc.py" />
+        <option value="$PROJECT_DIR$/第六章 set和dict/dict_method.py" />
+        <option value="$PROJECT_DIR$/第六章 set和dict/dict_subclass.py" />
+        <option value="$PROJECT_DIR$/第六章 set和dict/set_test.py" />
+        <option value="$PROJECT_DIR$/第六章 set和dict/dict_performance.py" />
+        <option value="$PROJECT_DIR$/第七章 对象引用,可变性和垃圾回收/what_is_var.py" />
+        <option value="$PROJECT_DIR$/第七章 对象引用,可变性和垃圾回收/delete.py" />
+        <option value="$PROJECT_DIR$/第八章 元类编程/property_test.py" />
+        <option value="$PROJECT_DIR$/第八章 元类编程/attr_desc.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyArgumentListInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="18-10-2018">
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="false" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="false" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="false" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="18-10-2018">
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="false" value="502.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="false" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="false" value="184.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="163.0" />
+        <observation name="false" value="210.0" />
+        <observation name="true" value="131.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="false" value="94.0" />
+        <observation name="true" value="67.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="70.0" />
+        <observation name="true" value="62.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="163.0" />
+        <observation name="false" value="141.0" />
+        <observation name="true" value="200.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="false" value="67.0" />
+        <observation name="true" value="94.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="62.0" />
+        <observation name="true" value="70.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="163.0" />
+        <observation name="false" value="131.0" />
+        <observation name="true" value="210.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="false" value="67.0" />
+        <observation name="true" value="94.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="62.0" />
+        <observation name="true" value="70.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="163.0" />
+        <observation name="false" value="341.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="false" value="161.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="132.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="163.0" />
+        <observation name="false" value="210.0" />
+        <observation name="true" value="131.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="false" value="94.0" />
+        <observation name="true" value="67.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="false" value="70.0" />
+        <observation name="true" value="62.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="18-10-2018">
+        <observation name="false" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="false" value="498.0" />
+        <observation name="true" value="6.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="false" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="false" value="181.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="18-10-2018">
+        <observation name="cancelled" value="68.0" />
+        <observation name="explicitSelect" value="3.0" />
+        <observation name="typedSelect" value="3.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="cancelled" value="1264.0" />
+        <observation name="explicitSelect" value="318.0" />
+        <observation name="typedSelect" value="187.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="cancelled" value="308.0" />
+        <observation name="explicitSelect" value="148.0" />
+        <observation name="typedSelect" value="50.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="cancelled" value="424.0" />
+        <observation name="explicitSelect" value="115.0" />
+        <observation name="typedSelect" value="70.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="18-10-2018">
+        <observation name="BASIC" value="11.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="BASIC" value="643.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="BASIC" value="253.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="BASIC" value="234.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="18-10-2018">
+        <observation name="count" value="74.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="count" value="1769.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="count" value="506.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="count" value="609.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="0.003972" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.002009" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="0.020253" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.031294" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="0.01084" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.007351" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="0.075472" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="4.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.163732" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="0.035443" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="3.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.069852" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="0.173442" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.433276" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="-1153.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="-1152.0" />
+        <observation name="min" value="-1154.0" />
+        <observation name="variance" value="0.197018" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="-1104.763654" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1155.0" />
+        <observation name="variance" value="45638.537025" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="-1106.511392" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1155.0" />
+        <observation name="variance" value="56643.081301" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="-1104.078591" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1154.0" />
+        <observation name="variance" value="30892.899361" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="0.039722" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.120789" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="0.126583" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.921232" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="163.0" />
+        <observation name="average" value="1.28928" />
+        <observation name="count" value="681.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.869188" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="37.0" />
+        <observation name="average" value="1.308411" />
+        <observation name="count" value="321.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.756983" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="average" value="1.178707" />
+        <observation name="count" value="263.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.841921" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="6.272727" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="14.0" />
+        <observation name="min" value="3.0" />
+        <observation name="variance" value="7.755089" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="5.631579" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="41.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="13.03" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="5.493671" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="14.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="6.58713" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="5.905149" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="30.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="20.720112" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="18-10-2018">
+        <observation name="UNDEFINED" value="6.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="UNDEFINED" value="504.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="UNDEFINED" value="198.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="UNDEFINED" value="185.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="1818.181818" />
+        <observation name="count" value="11.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="6694214.876033" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="4459.574975" />
+        <observation name="count" value="1007.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21988705.786081" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="6136.78481" />
+        <observation name="count" value="395.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="19098661.77748" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="6299.929539" />
+        <observation name="count" value="369.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21220317.911108" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="18-10-2018">
+        <observation name="0" value="3.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="0" value="293.0" />
+        <observation name="1" value="18.0" />
+        <observation name="2" value="3.0" />
+        <observation name="3" value="2.0" />
+        <observation name="4" value="2.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="0" value="144.0" />
+        <observation name="1" value="2.0" />
+        <observation name="2" value="1.0" />
+        <observation name="3" value="1.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="0" value="96.0" />
+        <observation name="1" value="13.0" />
+        <observation name="2" value="2.0" />
+        <observation name="3" value="2.0" />
+        <observation name="4" value="1.0" />
+        <observation name="5" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="18-10-2018">
+        <observation name="total" value="3.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="total" value="278.0" />
+        <observation name="withMnemonics" value="44.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="total" value="130.0" />
+        <observation name="withMnemonics" value="14.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="total" value="95.0" />
+        <observation name="withMnemonics" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="18-10-2018">
+        <observation name="4" value="1.0" />
+        <observation name="5" value="2.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="0" value="15.0" />
+        <observation name="1" value="25.0" />
+        <observation name="2" value="116.0" />
+        <observation name="3" value="111.0" />
+        <observation name="4" value="39.0" />
+        <observation name="5" value="12.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="0" value="7.0" />
+        <observation name="1" value="11.0" />
+        <observation name="2" value="68.0" />
+        <observation name="3" value="37.0" />
+        <observation name="4" value="22.0" />
+        <observation name="5" value="3.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="0" value="6.0" />
+        <observation name="1" value="14.0" />
+        <observation name="2" value="44.0" />
+        <observation name="3" value="36.0" />
+        <observation name="4" value="13.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="18-10-2018">
+        <observation name="average" value="365.65" />
+        <observation name="count" value="20.0" />
+      </dailyData>
+      <dailyData date="19-10-2018">
+        <observation name="average" value="207.22807" />
+        <observation name="count" value="570.0" />
+      </dailyData>
+      <dailyData date="20-10-2018">
+        <observation name="average" value="162.702127" />
+        <observation name="count" value="188.0" />
+      </dailyData>
+      <dailyData date="21-10-2018">
+        <observation name="average" value="213.830918" />
+        <observation name="count" value="207.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="第八章 元类编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="第八章 元类编程" type="462c0819:PsiDirectoryNode" />
+              <item name="attr_desc.py" type="8704e2dd:PyFileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.attr_desc">
+    <configuration name="python" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration name="attr_desc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第八章 元类编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第八章 元类编程/attr_desc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第六章 set和dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第六章 set和dict/dict_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dict_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第六章 set和dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第六章 set和dict/dict_subclass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="property_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第八章 元类编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第八章 元类编程/property_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="set_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第六章 set和dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第六章 set和dict/set_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.python" />
+      <item itemvalue="Python.dict_method" />
+      <item itemvalue="Python.dict_subclass" />
+      <item itemvalue="Python.set_test" />
+      <item itemvalue="Python.property_test" />
+      <item itemvalue="Python.attr_desc" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.attr_desc" />
+        <item itemvalue="Python.property_test" />
+        <item itemvalue="Python.set_test" />
+        <item itemvalue="Python.dict_subclass" />
+        <item itemvalue="Python.dict_method" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fe1b4bc-628e-429f-ac81-690af267945c" name="Default Changelist" comment="" />
+      <created>1539853670034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539853670034</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21666667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.22590837" />
+      <window_info x="1063" y="436" width="120" height="50" id="Python Console" order="2" sideWeight="0.5389105" side_tool="true" type="WINDOWED" weight="0.4599303" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.32985073" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" x="1" y="535" width="805" height="203" id="Run" order="2" sideWeight="0.46129543" visible="true" weight="0.33777776" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973614" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5187166" weight="0.6828423" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5387046" side_tool="true" weight="0.23289473" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" sideWeight="0.49805447" weight="0.35006973" />
+      <window_info anchor="bottom" id="运行" order="11" sideWeight="0.41828793" weight="0.32775453" />
+      <window_info anchor="bottom" id="调试" order="12" weight="0.32775453" />
+      <window_info anchor="bottom" id="找到" order="13" />
+      <window_info anchor="bottom" x="0" y="554" width="806" height="346" id="Terminal" order="14" sideWeight="0.71789885" type="WINDOWED" weight="0.25581396" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.17331022" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="7" side_tool="true" weight="0.33541667" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21666667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.22590837" />
+      <window_info x="1063" y="436" width="120" height="50" id="Python Console" order="2" sideWeight="0.5389105" side_tool="true" type="WINDOWED" weight="0.4599303" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.32985073" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" x="1" y="535" width="805" height="203" id="Run" order="2" sideWeight="0.46129543" visible="true" weight="0.3381123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973614" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5187166" weight="0.6828423" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5387046" side_tool="true" weight="0.23289473" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" sideWeight="0.49805447" weight="0.35006973" />
+      <window_info anchor="bottom" id="运行" order="11" sideWeight="0.41828793" weight="0.32775453" />
+      <window_info anchor="bottom" id="调试" order="12" weight="0.32775453" />
+      <window_info anchor="bottom" id="找到" order="13" />
+      <window_info anchor="bottom" x="0" y="554" width="806" height="346" id="Terminal" order="14" sideWeight="0.71789885" type="WINDOWED" weight="0.25581396" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.17331022" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="7" side_tool="true" weight="0.33541667" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/第一章 一切皆对象/sample/chapter01/all_is_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一章 一切皆对象/sample/chapter01/type_object_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章 魔法函数/company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章 魔法函数/test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/duck_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/abc_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/instance_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/class_var.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/attr_mro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/class_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/private_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/self_ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/super_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/contextlib_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章 自定义序列类/sequence_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章 深入类和对象/with_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章 自定义序列类/slice_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章 自定义序列类/bisect_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章 自定义序列类/array_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章 自定义序列类/list_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六章 set和dict/dict_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六章 set和dict/dict_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六章 set和dict/dict_subclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <marker date="1540085884325" expanded="true" signature="293:550" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六章 set和dict/set_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六章 set和dict/dict_performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章 对象引用,可变性和垃圾回收/what_is_var.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章 对象引用,可变性和垃圾回收/delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第八章 元类编程/property_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1540097580985" expanded="true" signature="65:70" ph="..." />
+            <marker date="1540097580985" expanded="true" signature="65:106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第八章 元类编程/attr_desc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#16#51#0" expanded="true" />
+            <marker date="1540102006484" expanded="true" signature="132:265" ph="..." />
+            <marker date="1540102006484" expanded="true" signature="300:332" ph="..." />
+            <marker date="1540102006484" expanded="true" signature="390:546" ph="..." />
+            <marker date="1540102006484" expanded="true" signature="451:520" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
